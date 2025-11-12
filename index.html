@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Hobby</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>Moje Hobby – Fotografia</h1>
+        <nav>
+            <ul>
+                <li><a href="#o-mnie">O mnie</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="o-mnie">
+            <h2>O mnie</h2>
+            <p>
+                Cześć! Nazywam się Dominik Sobczak i moim hobby jest fotografia. 
+                Uwielbiam uwieczniać piękno natury, światło zachodzącego słońca i emocje ludzi.
+                Fotografia pozwala mi zatrzymać chwilę i podzielić się nią z innymi.
+            </p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <div class="galeria">
+                <img src="https://picsum.photos/300/200?random=1" alt="Zdjęcie 1">
+                <img src="https://picsum.photos/300/200?random=2" alt="Zdjęcie 2">
+                <img src="https://picsum.photos/300/200?random=3" alt="Zdjęcie 3">
+                <img src="https://picsum.photos/300/200?random=4" alt="Zdjęcie 4">
+            </div>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <form>
+                <label for="imie">Imię:</label>
+                <input type="text" id="imie" name="imie" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="wiadomosc">Wiadomość:</label>
+                <textarea id="wiadomosc" name="wiadomosc" rows="4" required></textarea>
+
+                <button type="submit">Wyślij</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>2025 Dominik Sobczak | Moje Hobby</p>
+    </footer>
+</body>
+</html>
